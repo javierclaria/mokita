@@ -3,7 +3,7 @@
  * Template Name: Tienda Portada
  */
 
-get_header(); ?>a
+get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
