@@ -6,4 +6,7 @@ function mokita_enqueue_styles() {
  );
 }
 add_action( 'wp_enqueue_scripts', 'mokita_enqueue_styles' );
+
+remove_action( "storefront_header", "storefront_product_search", 40 );
+
 ?>
