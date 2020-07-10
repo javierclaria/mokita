@@ -13,6 +13,7 @@ add_action( 'wp_enqueue_scripts', 'mokita_enqueue_styles' );
 //Custom Header
 add_action( 'init', 'mokita_custom_hooks' );
 function mokita_custom_hooks() {
-	remove_action( "storefront_header", "storefront_product_search", 40 );
+    remove_action( "storefront_header", "storefront_product_search", 40 );
+    remove_action( "storefront_footer", "storefront_credit", 20 );  
 }
 ?>
