@@ -29,9 +29,15 @@ Template: storefront
     max-width: 310px;
 }
 
+/* navigation style */ 
+
 .storefront-primary-navigation {
     background: #a3dad5;
     margin-top: 10px;
 }
 
+.main-navigation ul li a {
+    color: white;
+    text-transform: uppercase;
+}
 
