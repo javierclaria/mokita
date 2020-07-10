@@ -8,6 +8,11 @@ Author URI: http://javierclaria.com.ar
 Template: storefront
 */
 
+/* General Styles */ 
+.col-full {
+    max-width: 100%;
+}
+
 /* Header Styles */ 
 #masthead {
     padding-top: 15px;
@@ -23,3 +28,10 @@ Template: storefront
 .logo a {
     max-width: 310px;
 }
+
+.storefront-primary-navigation {
+    background: #a3dad5;
+    margin-top: 10px;
+}
+
+
