@@ -16,6 +16,7 @@ Template: storefront
 
 .woocommerce-active .site-header .site-branding {
     width: 100%;
+    margin-bottom: 0;
     margin-right: 0;   
 }
 
