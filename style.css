@@ -49,3 +49,7 @@ a {
     text-transform: uppercase;
 }
 
+.woocommerce-active .site-header .site-header-cart {
+    color: white;
+    width: auto;
+}
