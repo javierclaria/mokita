@@ -9,6 +9,14 @@ Template: storefront
 */
 
 /* General Styles */ 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .col-full {
     max-width: 100%;
 }
