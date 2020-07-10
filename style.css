@@ -7,3 +7,18 @@ Author: Javier Claria
 Author URI: http://javierclaria.com.ar
 Template: storefront
 */
+
+/* Header Styles */ 
+#masthead {
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.woocommerce-active .site-header .site-branding {
+    width: 100%;
+    margin-right: 0;   
+}
+
+.logo a {
+    max-width: 310px;
+}
