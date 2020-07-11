@@ -32,10 +32,32 @@ function mokita_custom_hooks() {
 add_action('storefront_header','mokita_header', 40);
 
 function mokita_header() { 
-    echo 'Testing';
+   get_the_field('','option');
+
+   $output = '<div class="annoucement-header> '. $field_header_annoucement .'asdas</div>';
+
+   return $output;
+
 }
 
+// Register Options Page ACF 
+if( function_exists('acf_add_options_page') ) {
+	
+	acf_add_options_page(array(
+		'page_title' 	=> 'Theme General Settings',
+		'menu_title'	=> 'Theme Settings',
+		'menu_slug' 	=> 'theme-general-settings',
+		'capability'	=> 'edit_posts',
+		'redirect'		=> false
+	));
+	
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'Theme Header Settings',
+		'menu_title'	=> 'Header',
+		'parent_slug'	=> 'theme-general-settings',
+	));
 
+}
 
 // Add Custom Blocks Mokita
 add_action('acf/init', 'my_acf_init');
