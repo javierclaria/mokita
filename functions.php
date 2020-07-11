@@ -29,13 +29,13 @@ function mokita_custom_hooks() {
 
 
 // Custom Actions Header
+
+// Heade Annoucement
 add_action('storefront_header','mokita_header', 40);
 
 function mokita_header() { 
-
-	// $field_header_annoucement = get_the_field('anuncio_header','option');
-	echo '<div class="annoucement-header">asdas</div>';
-
+	$field_header_annoucement = get_the_field('anuncio_header','option');
+	echo '<div class="annoucement-header">'.$field_header_annoucement.'</div>';
 }
 
 // Register Options Page ACF 
