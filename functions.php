@@ -10,10 +10,24 @@ function mokita_enqueue_styles() {
 add_action( 'wp_enqueue_scripts', 'mokita_enqueue_styles' );
 
 	
-//Custom Header
+//Custom Hooks
 add_action( 'init', 'mokita_custom_hooks' );
+
 function mokita_custom_hooks() {
     remove_action( "storefront_header", "storefront_product_search", 40 );
     remove_action( "storefront_footer", "storefront_credit", 20 );  
+
+    // After header
+    remove_action( "storefront_before_content", "storefront_header_widget_region", 10 );
+    remove_action( "storefront_before_content", "woocommerce_breadcrumb", 10 );  
 }
+
+
+// Custom Actions Header
+add_action('init','mokita_header');
+
+function mokita_header() { 
+
+}
+
 ?>
