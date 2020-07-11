@@ -1,10 +1,15 @@
 <?php
 
 function mokita_enqueue_styles() {
-    $parent_style = 'parent-style'; // Estos son los estilos del tema padre recogidos por el tema hijo.
+    $parent_style = 'parent-style'; // Style Parent child.
     wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
-    wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array( $parent_style ), wp_get_theme()->get('Version') );
-    wp_enqueue_style( 'google-font','https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"', false );
+	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array( $parent_style ), wp_get_theme()->get('Version') );
+	wp_enqueue_style( 'google-font','https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"', false );
+	
+	// Owl Carrusel
+	wp_enqueue_script( 'script-name', get_template_directory_uri() . '/js/owl.carousel.min.js', array(), '1.0.0', true );
+	wp_enqueue_style( 'owl-default-style', get_stylesheet_directory_uri() . '/css/owl.theme.default.min.css', array(), '1.0.0', true  );
+	wp_enqueue_style( 'owl-style', get_stylesheet_directory_uri() . '/css/owl.carousel.min.css', array(), '1.0.0', true  );
 }
 
 add_action( 'wp_enqueue_scripts', 'mokita_enqueue_styles' );
@@ -31,7 +36,8 @@ function mokita_header() {
 }
 
 
-// Add Custom Blocks
+
+// Add Custom Blocks Mokita
 add_action('acf/init', 'my_acf_init');
 
 function my_acf_init() {
@@ -44,6 +50,7 @@ function my_acf_init() {
 			'name'				=> 'sliderhomepage',
 			'title'				=> __('Slider del Homepage'),
 			'description'		=> __('Slider Custom para el hoomepage'),
+			'render_template'   => 'template-parts/blocks/slider-homepage.php',
 			'render_callback'	=> 'my_acf_block_render_callback',
 			'category'			=> 'formatting',
 			'icon'				=> 'admin-comments',
