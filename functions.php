@@ -42,12 +42,6 @@ function mokita_header() {
 
 }
 
-// Heade Annoucement
-add_action('storefront_page','testear', 40);
-
-function testear() { 
-	echo 'testear action';
-}
 
 // Register Options Page ACF 
 if( function_exists('acf_add_options_page') ) {
