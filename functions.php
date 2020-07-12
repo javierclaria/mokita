@@ -39,9 +39,8 @@ add_action('storefront_header','mokita_header', 40);
 
 function mokita_header() { 
 
-	$output = '<div class="annoucement-header">adsd</div>';
+	echo '<span>adasd</span>';
 
-	return $output;
 }
 
 // Heade Annoucement
