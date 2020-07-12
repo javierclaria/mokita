@@ -38,9 +38,8 @@ function mokita_custom_hooks() {
 add_action('storefront_header','mokita_header', 40);
 
 function mokita_header() { 
-
-	echo '<span>adasd</span>';
-
+	$txt_annoucement = get_the_field('anuncio_header','option'); 
+	echo '<span>' . $txt_annoucement .'</span>';
 }
 
 // Heade Annoucement
