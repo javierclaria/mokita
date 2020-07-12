@@ -17,6 +17,10 @@ a {
     font-family: 'Open Sans', sans-serif;
 }
 
+a:focus, input:focus, textarea:focus, button:focus {
+    outline: none;
+}
+
 .col-full {
     max-width: 100%;
 }

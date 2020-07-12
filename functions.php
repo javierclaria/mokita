@@ -27,7 +27,7 @@ function mokita_custom_hooks() {
 	remove_action( "storefront_before_content", "woocommerce_breadcrumb", 10 );  
 	
 	// Single Page
-	remove_action( "storefront_page'", "storefront_page_header ", 10 );  
+	remove_action( "storefront_page'", "storefront_page_header", 10 );  
 
 }
 
