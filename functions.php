@@ -40,7 +40,7 @@ add_action('storefront_header','mokita_header', 40);
 function mokita_header() { 
 	$txt_annoucement = the_field('anuncio_header','option'); 
 	echo '<div class="annoucement-header">';
-	echo 	$txt_annoucement;
+	echo 	'asdasdsadsad';
 	echo '</div>';
 }
 
