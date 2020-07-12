@@ -12,14 +12,43 @@
 // Load values and assign defaults.
 ?>
 
-<div class="owl-carousel">
-  <div> Your Content 1</div>
-  <div> Your Content 2</div>
-  <div> Your Content 3</div>
-  <div> Your Content 4</div>
-  <div> Your Content 5</div>
-  <div> Your Content 6</div>
-  <div> Your Content 7</div>
+<div class="owl-carousel owl-theme">
+            <div class="item">
+              <h4>1</h4>
+            </div>
+            <div class="item">
+              <h4>2</h4>
+            </div>
+            <div class="item">
+              <h4>3</h4>
+            </div>
+            <div class="item">
+              <h4>4</h4>
+            </div>
+            <div class="item">
+              <h4>5</h4>
+            </div>
+            <div class="item">
+              <h4>6</h4>
+            </div>
+            <div class="item">
+              <h4>7</h4>
+            </div>
+            <div class="item">
+              <h4>8</h4>
+            </div>
+            <div class="item">
+              <h4>9</h4>
+            </div>
+            <div class="item">
+              <h4>10</h4>
+            </div>
+            <div class="item">
+              <h4>11</h4>
+            </div>
+            <div class="item">
+              <h4>12</h4>
+            </div>
 </div>
 
 
