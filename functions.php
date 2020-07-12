@@ -38,9 +38,18 @@ function mokita_custom_hooks() {
 add_action('storefront_header','mokita_header', 40);
 
 function mokita_header() { 
+	ob_start();
+	$output = "<div>test</div>";
 
+	return $output;
 }
 
+// Heade Annoucement
+add_action('storefront_page','testear', 40);
+
+function testear() { 
+	echo 'testear action';
+}
 
 // Register Options Page ACF 
 if( function_exists('acf_add_options_page') ) {
