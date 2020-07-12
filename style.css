@@ -57,3 +57,11 @@ a:focus, input:focus, textarea:focus, button:focus {
     color: white;
     width: auto;
 }
+
+
+/* WooCommerce */
+.hentry .entry-content .wp-block-button .wp-block-button__link {
+    color: white;
+    text-transform: uppercase;
+    background: #a3dad5;
+}

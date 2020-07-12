@@ -89,3 +89,7 @@ function my_acf_init() {
 	}
 }
 ?>
+
+	-webkit-box-shadow: -1px -1px 30px -12px rgba(158,158,158,1);
+    -moz-box-shadow: -1px -1px 30px -12px rgba(158,158,158,1);
+    box-shadow: -1px -1px 30px -19px rgba(158,158,158,1);
