@@ -24,7 +24,11 @@ function mokita_custom_hooks() {
 
     // After header
     remove_action( "storefront_before_content", "storefront_header_widget_region", 10 );
-    remove_action( "storefront_before_content", "woocommerce_breadcrumb", 10 );  
+	remove_action( "storefront_before_content", "woocommerce_breadcrumb", 10 );  
+	
+	// Single Page
+	remove_action( "storefront_single_post", "storefront_post_header", 10 );  
+
 }
 
 
