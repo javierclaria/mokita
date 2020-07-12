@@ -35,6 +35,7 @@ a:focus, input:focus, textarea:focus, button:focus {
     width: 100%;
     margin-bottom: 0;
     margin-right: 0;   
+    max-width: 310px;
 }
 
 .site-branding a {
