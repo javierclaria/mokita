@@ -38,7 +38,10 @@ function mokita_custom_hooks() {
 add_action('storefront_header','mokita_header', 40);
 
 function mokita_header() { 
-	echo '<div class="annoucement-header"> '. the_field('anuncio_header','option') .'</div>';
+	$txt_annoucement = the_field('anuncio_header','option'); 
+	echo '<div class="annoucement-header">';
+	echo 	$txt_annoucement;
+	echo '</div>';
 }
 
 // Heade Annoucement
