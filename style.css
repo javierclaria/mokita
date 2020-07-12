@@ -73,3 +73,11 @@ a:focus, input:focus, textarea:focus, button:focus {
     box-shadow: -1px -1px 30px -19px rgba(158,158,158,1);
     border: 1px solid #efefef;
 }
+
+.wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title > a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #bbbbbb;
+    font-weight: 600;
+    font-size: 20px;
+}
