@@ -93,3 +93,9 @@ a:focus, input:focus, textarea:focus, button:focus {
     border-radius: 0px;
     border-bottom: 1px solid #efeff0;
 }
+
+
+/* footer */ 
+.wc-block-pagination {
+    text-align: right;
+}
