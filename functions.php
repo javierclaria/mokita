@@ -56,9 +56,10 @@ add_action('mokita_fullimage_header', 'full_image_header', 10);
 
 function full_image_header(){ 
 	$img_url = get_field( "imagen_header_full_width", $post_id);
+	if($img_url):
 	?>
 	<div class="full-image-mokita-header"><img src="<?php echo $img_url ?>"></div>
-<? }
+	<? endif; }
 
 // Heade Annoucement
 add_action('storefront_header','mokita_header', 40);
