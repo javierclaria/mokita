@@ -33,13 +33,13 @@ function mokita_custom_hooks() {
 	remove_action( 'storefront_header', 'storefront_primary_navigation_wrapper', 42 );
 	remove_action( 'storefront_header', 'storefront_primary_navigation', 50 );
 	remove_action( 'storefront_header', 'storefront_primary_navigation_wrapper_close', 68 );
+	remove_action( 'storefront_header', 'storefront_header_cart', 60 );
 
+	//add actions to menu
 	add_action( 'storefront_header', 'storefront_primary_navigation_wrapper', 22 );
 	add_action( 'storefront_header', 'storefront_primary_navigation', 23 );
 	add_action( 'storefront_header', 'storefront_header_cart', 24 );
 	add_action( 'storefront_header', 'storefront_primary_navigation_wrapper_close', 25 );
-
-
 
     // After header
     remove_action( "storefront_before_content", "storefront_header_widget_region", 10 );
