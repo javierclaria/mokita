@@ -46,8 +46,9 @@ a:focus, input:focus, textarea:focus, button:focus {
 
 .storefront-primary-navigation {
     background: #a3dad5;
-    margin-top: 10px;
+    margin-top: 0px;
     float: right;
+    clear: none;
 }
 
 .main-navigation ul li a {
