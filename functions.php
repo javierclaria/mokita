@@ -8,7 +8,7 @@ function mokita_enqueue_styles() {
 	
 	// Owl Carrusel
 	wp_enqueue_script( 'owl-script', get_stylesheet_directory_uri() . '/js/owl.carousel.min.js', array(), '1.0.0', true );
-	wp_enqueue_script( 'owl-script', get_stylesheet_directory_uri() . '/js/owl.carousel.js', array(), '1.0.0', true );
+	wp_enqueue_script( 'owl-script-nomin', get_stylesheet_directory_uri() . '/js/owl.carousel.js', array(), '1.0.0', true );
 	wp_enqueue_style( 'owl-default-style', get_stylesheet_directory_uri() . '/css/owl.theme.default.min.css', array(), '1.0.0', true  );
 	wp_enqueue_style( 'owl-style', get_stylesheet_directory_uri() . '/css/owl.carousel.min.css', array(), '1.0.0', true  );
 }
