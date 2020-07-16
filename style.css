@@ -72,6 +72,7 @@ a:focus, input:focus, textarea:focus, button:focus {
     -moz-box-shadow: -1px -1px 30px -12px rgba(158,158,158,1);
     box-shadow: -1px -1px 30px -19px rgba(158,158,158,1);
     border: 1px solid #efefef;
+    background: #f9f9f9;
 }
 
 .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title > a {

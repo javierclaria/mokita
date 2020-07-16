@@ -22,10 +22,17 @@ add_action( 'init', 'mokita_custom_hooks' );
 function mokita_custom_hooks() {
     remove_action( "storefront_header", "storefront_product_search", 40 );
 	remove_action( "storefront_footer", "storefront_credit", 20 );  
+
+	
 	// Header title
 	remove_action( 'storefront_homepage', 'storefront_homepage_header', 10 );
 	remove_action( 'storefront_page', 'storefront_page_header', 10 );
-	
+
+	//Remove Menu 
+	remove_action( 'storefront_header', 'storefront_primary_navigation_wrapper', 42 );
+	remove_action( 'storefront_header', 'storefront_primary_navigation', 50 );
+	remove_action( 'storefront_header', 'storefront_primary_navigation_wrapper_close', 68 );
+
     // After header
     remove_action( "storefront_before_content", "storefront_header_widget_region", 10 );
 	remove_action( "storefront_before_content", "woocommerce_breadcrumb", 10 );  
