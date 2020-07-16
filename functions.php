@@ -52,6 +52,13 @@ function mokita_custom_hooks() {
 
 
 // Custom Actions Header
+add_action('mokita_fullimage_header', 'full_image_header');
+
+function full_image_header(){ 
+	$img_url = get_field( "imagen_header_full_width", $post_id);
+	?>
+	<div class="full-image-mokita-header"><img src="<?php echo $img_url ?>"></div>
+<? }
 
 // Heade Annoucement
 add_action('storefront_header','mokita_header', 40);
