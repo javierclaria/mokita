@@ -88,3 +88,8 @@ a:focus, input:focus, textarea:focus, button:focus {
     text-transform: uppercase;
     color: black;
 }
+
+.wc-block-grid__products .wc-block-grid__product-image img {
+    border-radius: 0px;
+    border-bottom: 1px solid #efeff0;
+}
