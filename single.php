@@ -15,7 +15,7 @@ get_header(); ?>
 			the_post();
 
 			do_action( 'storefront_single_post_before' );
-			echo 'testing';
+
 			get_template_part( 'content', 'single' );
 
 			do_action( 'storefront_single_post_after' );
