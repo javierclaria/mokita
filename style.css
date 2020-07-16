@@ -95,7 +95,18 @@ a:focus, input:focus, textarea:focus, button:focus {
 }
 
 
-/* footer */ 
+/* footer Navigation */ 
 .wc-block-pagination {
     text-align: right;
+}
+
+.wc-block-pagination-page:not(.toggle) {
+    background-color: #a3dad5;
+    color: white;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.wc-block-pagination-page--active[disabled] {
+    color: white;
 }
