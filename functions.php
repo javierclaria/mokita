@@ -36,7 +36,8 @@ function mokita_custom_hooks() {
 
 	add_action( 'storefront_header', 'storefront_primary_navigation_wrapper', 22 );
 	add_action( 'storefront_header', 'storefront_primary_navigation', 23 );
-	add_action( 'storefront_header', 'storefront_primary_navigation_wrapper_close', 24 );
+	add_action( 'storefront_header', 'storefront_header_cart', 24 );
+	add_action( 'storefront_header', 'storefront_primary_navigation_wrapper_close', 25 );
 
 
 
