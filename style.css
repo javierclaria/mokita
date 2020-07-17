@@ -103,6 +103,7 @@ a:focus, input:focus, textarea:focus, button:focus {
 
 .site-header-cart .cart-contents .count {
     font-weight: 500;
+    margin-right: 10px;
 }
 
 /* Hero Image */
