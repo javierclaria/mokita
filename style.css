@@ -65,6 +65,9 @@ a:focus, input:focus, textarea:focus, button:focus {
 }
 
 .main-navigation ul li {
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
     background: #a3dad5;
     margin-left: 1%;
     margin-right: 1%;
