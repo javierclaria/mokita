@@ -50,7 +50,7 @@ add_action('storefront_before_content', 'full_image_header', 10);
 function full_image_header(){ 
 	$img_url = get_field( "imagen_header_full_width", $post_id);
 	if($img_url): ?>
-	<div class="full-image-mokita-header"><img src="<?php echo $img_url ?>"></div>
+	<div class="full-image-mokita-header" style="background-image: url('<?php echo $img_url ?> ');"></div>
 	<? endif; 
 }
 
