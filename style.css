@@ -177,3 +177,8 @@ a:focus, input:focus, textarea:focus, button:focus {
 .wc-block-pagination-page--active[disabled] {
     color: white;
 }
+
+/* footer Widget */ 
+.widget {
+    text-align: center;
+}
