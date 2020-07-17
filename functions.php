@@ -59,9 +59,9 @@ add_action('storefront_before_header','mokita_header', 10);
 
 function mokita_header() { 
 	$text_announcer = get_field( "anuncio_header", "option");
-
+	if($text_announcer):
 	echo '<div class="announcerbar"> '. $text_announcer .' </div>';
-
+	endif;
 }
 
 // Register Options Page ACF 
