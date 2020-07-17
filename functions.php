@@ -49,19 +49,19 @@ add_action('storefront_before_content', 'full_image_header', 10);
 
 function full_image_header(){ 
 	$img_url = get_field( "imagen_header_full_width", $post_id);
-	if($img_url):
-	?>
+	if($img_url): ?>
 	<div class="full-image-mokita-header"><img src="<?php echo $img_url ?>"></div>
-	<? endif; }
+	<? endif; 
+}
 
 // Heade Annoucement
-add_action('storefront_header','mokita_header', 40);
+add_action('storefront_before_header','mokita_header', 10);
 
 function mokita_header() { 
-	ob_start();
-	$output = "<div>test</div>";
-
-	return $output;
+	$text_announcer = get_field("anuncio_header","option");
+	if($text_announcers):
+	echo '<div class="announcerbar"> '. $text_announcer .' </div>';
+	endif;
 }
 
 // Register Options Page ACF 
