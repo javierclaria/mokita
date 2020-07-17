@@ -90,6 +90,13 @@ a:focus, input:focus, textarea:focus, button:focus {
     width: auto;
 }
 
+/* Header Cart */ 
+
+#site-header-cart {
+    width: 300px;
+    text-align: right;
+}
+
 /* Hero Image */
 
 .full-image-mokita-header {
