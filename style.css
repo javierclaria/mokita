@@ -65,6 +65,9 @@ a:focus, input:focus, textarea:focus, button:focus {
 .main-navigation ul li a {
     color: white;
     text-transform: uppercase;
+}
+
+.main-navigation ul.menu > li > a, .main-navigation ul.nav-menu > li > a {
     padding-top: 10px;
     padding-bottom: 10px;
 }
