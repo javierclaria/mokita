@@ -23,7 +23,6 @@ function mokita_custom_hooks() {
 
     remove_action( "storefront_header", "storefront_product_search", 40 );
 	remove_action( "storefront_footer", "storefront_credit", 20 );  
-
 	
 	// Header title
 	remove_action( 'storefront_homepage', 'storefront_homepage_header', 10 );
