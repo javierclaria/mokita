@@ -5,12 +5,6 @@ function mokita_enqueue_styles() {
     wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
 	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array( $parent_style ), wp_get_theme()->get('Version') );
 	wp_enqueue_style( 'google-font','https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"', false );
-	
-	// Owl Carrusel
-	wp_enqueue_script( 'owl-script', get_stylesheet_directory_uri() . '/js/owl.carousel.min.js', array(), '1.0.0', true );
-	wp_enqueue_script( 'owl-script-nomin', get_stylesheet_directory_uri() . '/js/owl.carousel.js', array(), '1.0.0', true );
-	wp_enqueue_style( 'owl-default-style', get_stylesheet_directory_uri() . '/css/owl.theme.default.min.css', array(), '1.0.0', true  );
-	wp_enqueue_style( 'owl-style', get_stylesheet_directory_uri() . '/css/owl.carousel.min.css', array(), '1.0.0', true  );
 }
 
 add_action( 'wp_enqueue_scripts', 'mokita_enqueue_styles' );
