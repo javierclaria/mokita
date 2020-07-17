@@ -97,6 +97,14 @@ a:focus, input:focus, textarea:focus, button:focus {
     text-align: right;
 }
 
+.site-header-cart .cart-contents {
+    color:#a3dad5;
+}
+
+.site-header-cart .cart-contents .count {
+    font-weight: 500;
+}
+
 /* Hero Image */
 
 .full-image-mokita-header {
