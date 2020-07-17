@@ -90,6 +90,18 @@ a:focus, input:focus, textarea:focus, button:focus {
     width: auto;
 }
 
+/* Hero Image */
+
+.full-image-mokita-header {
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 40px;
+    margin-top: -15px;
+}
+
 
 /* WooCommerce */
 .hentry .entry-content .wp-block-button .wp-block-button__link {
