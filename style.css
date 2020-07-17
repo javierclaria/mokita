@@ -26,6 +26,19 @@ a:focus, input:focus, textarea:focus, button:focus {
 }
 
 /* Header Styles */ 
+
+.announcerbar {text-align: center;
+    color: white;
+    background: #a3dad5;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+
 #masthead {
     padding-top: 15px;
     margin-bottom: 15px;
