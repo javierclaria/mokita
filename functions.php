@@ -34,33 +34,41 @@ function mokita_custom_hooks() {
 	add_action( 'storefront_header', 'storefront_header_cart', 24 );
 	add_action( 'storefront_header', 'storefront_primary_navigation_wrapper_close', 25 );
 
+	// Custom Actions Header
+	add_action('storefront_before_header','mokita_header_annoucement', 10);
+	add_action('storefront_before_content', 'mokita_page_image_header', 10);
+
     // After header
     remove_action( "storefront_before_content", "storefront_header_widget_region", 10 );
 	remove_action( "storefront_before_content", "woocommerce_breadcrumb", 10 );  
+
+	// Footer 
+	add_action( 'storefront_after_footer', 'mokita_footer_copyright', 25 );
 	
 	// Single Page
 	remove_action( "storefront_page'", "storefront_page_header", 10 );  
 
 }
 
-
-// Custom Actions Header
-add_action('storefront_before_content', 'full_image_header', 10);
-
-function full_image_header(){ 
+// Functions 
+function mokita_page_image_header(){ 
 	$img_url = get_field( "imagen_header_full_width", $post_id);
 	if($img_url): ?>
 	<div class="full-image-mokita-header" style="background-image: url('<?php echo $img_url ?> ');"></div>
 	<? endif; 
 }
 
-// Heade Annoucement
-add_action('storefront_before_header','mokita_header', 10);
+function mokita_header_annoucement() { 
+	$text_announcement_header = get_field( "anuncio_header", "option");
+	if($text_announcement_header):
+	echo '<div class="announcerbar"> '. $text_announcement_header .' </div>';
+	endif;
+}
 
-function mokita_header() { 
-	$text_announcer = get_field( "anuncio_header", "option");
-	if($text_announcer):
-	echo '<div class="announcerbar"> '. $text_announcer .' </div>';
+function mokita_footer_copyright() { 
+	$text_announcement_footer = get_field( "anuncio_copy", "option");
+	if($text_announcement_footer):
+	echo '<div class="footer_copyright"> '. $text_announcement_footer .' </div>';
 	endif;
 }
 
@@ -78,6 +86,12 @@ if( function_exists('acf_add_options_page') ) {
 	acf_add_options_sub_page(array(
 		'page_title' 	=> 'Theme Header Settings',
 		'menu_title'	=> 'Header',
+		'parent_slug'	=> 'theme-general-settings',
+	));
+
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'Theme Footer Settings',
+		'menu_title'	=> 'Footer',
 		'parent_slug'	=> 'theme-general-settings',
 	));
 
