@@ -175,6 +175,10 @@ a:focus, input:focus, textarea:focus, button:focus {
     color: #77c5be;
 }
 
+.site-footer a:not(.button):not(.components-button) {
+    color: #77c5be;
+}
+
 .site-footer {
     padding-bottom: 0px;
 }
