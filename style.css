@@ -170,6 +170,11 @@ a:focus, input:focus, textarea:focus, button:focus {
     margin-bottom: 0px;
 }
 
+.site-footer a {
+    text-decoration: none;
+    color: #77c5be;
+}
+
 .site-footer {
     padding-bottom: 0px;
 }
@@ -182,6 +187,8 @@ a:focus, input:focus, textarea:focus, button:focus {
     color: white;
     background: #7a8491;
 }
+
+
 
 /* WooCommerce */
 .hentry .entry-content .wp-block-button .wp-block-button__link {
