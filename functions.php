@@ -42,8 +42,9 @@ function mokita_custom_hooks() {
 	remove_action( "storefront_before_content", "woocommerce_breadcrumb", 10 );  
 
 	// Footer 
+	add_action( 'storefront_footer', 'mokita_footer_logo', 25 );
 	add_action( 'storefront_after_footer', 'mokita_footer_copyright', 25 );
-	
+
 	// Single Page
 	remove_action( "storefront_page'", "storefront_page_header", 10 );  
 
@@ -63,6 +64,14 @@ function mokita_header_annoucement() {
 	echo '<div class="announcerbar"> '. $text_announcement_header .' </div>';
 	endif;
 }
+
+function mokita_footer_logo() { 
+	$imagen_footer = get_field( "footer_imagen", "option");
+	if($imagen_footer):
+	echo '<div class="announcerbar"> '. $imagen_footer.' </div>';
+	endif;
+}
+
 
 function mokita_footer_copyright() { 
 	$text_announcement_footer = get_field( "anuncio_copy", "option");
