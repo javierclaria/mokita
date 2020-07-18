@@ -132,6 +132,10 @@ a:focus, input:focus, textarea:focus, button:focus {
 }
 
 /* Footer */
+.site-footer {
+    background: rgb(222,222,222);
+    background: linear-gradient(180deg, rgba(222,222,222,1) 0%, rgba(240,240,240,1) 4%, rgba(240,240,240,1) 100%);
+}
 .footer_image_logo {
     margin:auto;
     width: 100px;
