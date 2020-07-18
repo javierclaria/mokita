@@ -30,7 +30,6 @@ get_header(); ?>
 
 		endif;
 		?>
-asdasdasdasdasd
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
