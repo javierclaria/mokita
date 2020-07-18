@@ -130,42 +130,10 @@ a:focus, input:focus, textarea:focus, button:focus {
     margin-bottom: 0;
 }
 
-
-/* WooCommerce */
-.hentry .entry-content .wp-block-button .wp-block-button__link {
-    color: white;
-    text-transform: uppercase;
-    background: #a3dad5;
+/* Footer */
+.footer_image_logo {
+    width: 100%;
 }
-
-.wc-block-grid.has-4-columns .wc-block-grid__product {
-    -webkit-box-shadow: -1px -1px 30px -12px rgba(158,158,158,1);
-    -moz-box-shadow: -1px -1px 30px -12px rgba(158,158,158,1);
-    box-shadow: -1px -1px 30px -19px rgba(158,158,158,1);
-    border: 1px solid #efefef;
-    background: #f9f9f9;
-}
-
-.wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title > a {
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #bbbbbb;
-    font-weight: 600;
-    font-size: 20px;
-}
-
-.wc-block-grid__products .wc-block-grid__product .wp-block-button__link {
-    background: #a3dad5;
-    font-size: 12px;
-    text-transform: uppercase;
-    color: black;
-}
-
-.wc-block-grid__products .wc-block-grid__product-image img {
-    border-radius: 0px;
-    border-bottom: 1px solid #efeff0;
-}
-
 
 /* footer Navigation */ 
 .wc-block-pagination {
@@ -211,4 +179,40 @@ a:focus, input:focus, textarea:focus, button:focus {
     font-size: 11px;
     color: white;
     background: #7a8491;
+}
+
+
+/* WooCommerce */
+.hentry .entry-content .wp-block-button .wp-block-button__link {
+    color: white;
+    text-transform: uppercase;
+    background: #a3dad5;
+}
+
+.wc-block-grid.has-4-columns .wc-block-grid__product {
+    -webkit-box-shadow: -1px -1px 30px -12px rgba(158,158,158,1);
+    -moz-box-shadow: -1px -1px 30px -12px rgba(158,158,158,1);
+    box-shadow: -1px -1px 30px -19px rgba(158,158,158,1);
+    border: 1px solid #efefef;
+    background: #f9f9f9;
+}
+
+.wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title > a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #bbbbbb;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.wc-block-grid__products .wc-block-grid__product .wp-block-button__link {
+    background: #a3dad5;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.wc-block-grid__products .wc-block-grid__product-image img {
+    border-radius: 0px;
+    border-bottom: 1px solid #efeff0;
 }

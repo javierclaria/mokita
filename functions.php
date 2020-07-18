@@ -68,7 +68,7 @@ function mokita_header_annoucement() {
 function mokita_footer_logo() { 
 	$imagen_footer = get_field( "footer_imagen", "option");
 	if($imagen_footer):
-	echo '<img src=" '. $imagen_footer.' " alt=" Mokita - Tienda de ropa" >';
+	echo '<img src=" '. $imagen_footer.' " alt=" Mokita - Tienda de ropa" class="footer_image_logo" >';
 	endif;
 }
 
