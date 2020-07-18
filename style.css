@@ -125,6 +125,11 @@ a:focus, input:focus, textarea:focus, button:focus {
     margin-top: -15px;
 }
 
+/* General Content */ 
+.content-area {
+    margin-bottom: 0;
+}
+
 
 /* WooCommerce */
 .hentry .entry-content .wp-block-button .wp-block-button__link {
