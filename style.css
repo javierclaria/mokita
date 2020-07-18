@@ -15,6 +15,7 @@ body {
 
 a {
     font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
 }
 
 a:focus, input:focus, textarea:focus, button:focus {
@@ -181,7 +182,6 @@ a:focus, input:focus, textarea:focus, button:focus {
     color: white;
     background: #7a8491;
 }
-
 
 /* WooCommerce */
 .hentry .entry-content .wp-block-button .wp-block-button__link {
