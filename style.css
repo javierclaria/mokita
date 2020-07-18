@@ -127,8 +127,18 @@ a:focus, input:focus, textarea:focus, button:focus {
 }
 
 /* General Content */ 
+
 .content-area {
     margin-bottom: 0;
+}
+
+.hentry {
+    margin-bottom: 0px;
+}
+
+.contait-wider {
+    max-width: 800px;
+    margin: auto;
 }
 
 /* Footer */
