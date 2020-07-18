@@ -197,6 +197,12 @@ a:focus, input:focus, textarea:focus, button:focus {
     padding-bottom: 0px;
 }
 
+.instagram_icon img {
+    max-width: 50px;
+    margin: auto;
+    fill: red;
+}
+
 .footer_copyright {
     text-align: center;
     padding-top: 8px;
@@ -215,7 +221,7 @@ a:focus, input:focus, textarea:focus, button:focus {
     background: #a3dad5;
 }
 
-.wc-block-grid.has-4-columns .wc-block-grid__product {
+.wc-block-grid.has-4-columns .wc-block-grid__product, .storefront-full-width-content .site-main ul.products.columns-4 li.product  {
     -webkit-box-shadow: -1px -1px 30px -12px rgba(158,158,158,1);
     -moz-box-shadow: -1px -1px 30px -12px rgba(158,158,158,1);
     box-shadow: -1px -1px 30px -19px rgba(158,158,158,1);
@@ -223,7 +229,7 @@ a:focus, input:focus, textarea:focus, button:focus {
     background: #f9f9f9;
 }
 
-.wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title > a {
+.wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title > a  {
     text-transform: uppercase;
     text-decoration: none;
     color: #bbbbbb;
