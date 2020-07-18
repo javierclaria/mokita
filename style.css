@@ -198,3 +198,12 @@ a:focus, input:focus, textarea:focus, button:focus {
 .site-footer {
     padding-bottom: 0px;
 }
+
+.footer_copyright {
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 11px;
+    color: white;
+    background: #7a8491;
+}

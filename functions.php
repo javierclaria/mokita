@@ -9,7 +9,6 @@ function mokita_enqueue_styles() {
 
 add_action( 'wp_enqueue_scripts', 'mokita_enqueue_styles' );
 
-	
 //Custom Hooks
 add_action( 'init', 'mokita_custom_hooks' );
 
