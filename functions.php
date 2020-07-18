@@ -42,7 +42,7 @@ function mokita_custom_hooks() {
 	remove_action( "storefront_before_content", "woocommerce_breadcrumb", 10 );  
 
 	// Footer 
-	add_action( 'storefront_footer', 'mokita_footer_logo', 25 );
+	add_action( 'storefront_footer', 'mokita_footer_logo', 5 );
 	add_action( 'storefront_after_footer', 'mokita_footer_copyright', 25 );
 
 	// Single Page
