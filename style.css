@@ -145,7 +145,7 @@ a:focus, input:focus, textarea:focus, button:focus {
     text-align: center;
 }
 
-.titles-homepage figure {
+.hentry .entry-content .titles-homepage  div.wp-block-image:not(.block-editor-media-placeholder) figure {
     margin-bottom: 10px;
 }
 
