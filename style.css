@@ -200,7 +200,7 @@ a:focus, input:focus, textarea:focus, button:focus {
 .instagram_icon img {
     max-width: 50px;
     margin: auto;
-    fill: red;
+    opacity: 0.6;
 }
 
 .footer_copyright {
