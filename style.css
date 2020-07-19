@@ -300,7 +300,7 @@ a:focus, input:focus, textarea:focus, button:focus {
 }
 
 .single-product a.reset_variations {
-
+    display: none !important;
 }
 
 .single-product div.product p.price {
