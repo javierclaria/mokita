@@ -429,11 +429,16 @@ a.checkout-button.button.alt.wc-forward {
 }
 
 /* Preguntas Frecuentes  */
+
 .page-id-32 #primary {
     margin: auto;
     max-width: 1200px;
     float: none;
 } 
+
+.page-id-32 .full-image-mokita-header {
+    height: 150px;
+}
 
 @media(max-width:767px){
 
