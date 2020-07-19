@@ -79,12 +79,20 @@ a:focus, input:focus, textarea:focus, button:focus {
     background: #77c5be;
 }
 
+.site-header ul.menu li.current-menu-item {
+    background: #77c5be;
+}
+
 .main-navigation ul li a {
     color: white;
     text-transform: uppercase;
 }
 
 .main-navigation ul li:hover > a {
+    color: white;
+}
+
+.site-header ul.menu li.current-menu-item > a {
     color: white;
 }
 
