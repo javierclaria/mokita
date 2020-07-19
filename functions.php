@@ -46,7 +46,10 @@ function mokita_custom_hooks() {
 	add_action( 'storefront_after_footer', 'mokita_footer_copyright', 25 );
 
 	// Single Page
-	remove_action( "storefront_page'", "storefront_page_header", 10 );  
+	remove_action( "storefront_page", "storefront_page_header", 10 );  
+
+	// Single Product
+	remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40);
 
 }
 
