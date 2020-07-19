@@ -444,4 +444,14 @@ a.checkout-button.button.alt.wc-forward {
         margin-right: 0;
         max-width: 310px;
     }
+
+    button.menu-toggle {
+        color: #a3dad5;
+    }
+
+    button.menu-toggle, button.menu-toggle:hover {
+        border-color:#a3dad5
+    }
+
+
 }
