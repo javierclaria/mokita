@@ -436,12 +436,13 @@ a.checkout-button.button.alt.wc-forward {
     float: none;
 } 
 
-.page-id-32 .full-image-mokita-header {
+.page-id-32 .full-image-mokita-header, .page-id-35 .full-image-mokita-header {
     height: 150px;
 }
 
+
 @media(max-width:1200px){
-    
+
     .full-image-mokita-header {
         background-position: left center;
     }
