@@ -299,7 +299,12 @@ a:focus, input:focus, textarea:focus, button:focus {
     margin-top: 10px;
 }
 
-.single_add_to_cart_button.button {
+.single_add_to_cart_button.button:hover {
     background: #a3dad5;
+    text-transform: uppercase;
+}
+
+.single_add_to_cart_button.button {
+    background: #77c5be;
     text-transform: uppercase;
 }
