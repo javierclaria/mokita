@@ -336,3 +336,11 @@ a:focus, input:focus, textarea:focus, button:focus {
     margin: 0;
     width: 25%;
 }
+
+ul.products li.product img {
+    display: block;
+    margin: 0 auto 1.618em;
+    margin: 0px;
+    width: 100%;
+    border-radius: 0px;
+}
