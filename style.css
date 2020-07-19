@@ -126,6 +126,10 @@ a:focus, input:focus, textarea:focus, button:focus {
     text-align: right;
 }
 
+#site-header-cart li.current-menu-item {
+    background: none;
+}
+
 .site-header-cart .cart-contents {
     color:#a3dad5;
 }
