@@ -48,10 +48,6 @@ function mokita_custom_hooks() {
 	// Single Page
 	remove_action( "storefront_page'", "storefront_page_header", 10 );  
 
-	//Tienda 
-	if(is_page('tienda')):
-		remove_action("asd","asd");
-	endif;
 }
 
 // Functions 
