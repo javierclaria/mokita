@@ -389,6 +389,10 @@ ul.products li.product .button {
 }
 
 /* WooCommerce Cart */ 
+
+a.checkout-button.button.alt.wc-forward {
+    background: #a3dad5;
+}
 .woocommerce-cart #primary {
     width: 1200px;
     margin: auto;
