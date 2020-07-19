@@ -51,6 +51,13 @@ function mokita_custom_hooks() {
 	// Single Product
 	remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40);
 	remove_all_actions('woocommerce_after_single_product_summary', 10);
+	
+	add_filter( "woocommerce_checkout_fields" , "custom_override_checkout_fields" );
+
+	function custom_override_checkout_fields( $fields ) {
+		unset($fields["billing"]["billing_company"]);
+		return $fields;
+	}
 
 }
 
