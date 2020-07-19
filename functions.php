@@ -55,6 +55,14 @@ function mokita_custom_hooks() {
 	add_filter( "woocommerce_checkout_fields" , "custom_override_checkout_fields" );
 }
 
+add_filter( 'woocommerce_billing_fields', 'filter_billing_fields', 20, 1 );
+function filter_billing_fields( $billing_fields ) {
+    // Only on checkout page
+    if( ! is_checkout() ) return $billing_fields;
+    $billing_fields['billing_country']['required'] = false;
+    return $billing_fields;
+}
+
 // Functions 
 function mokita_page_image_header(){ 
 	$img_url = get_field( "imagen_header_full_width", $post_id);
@@ -86,7 +94,7 @@ function mokita_footer_copyright() {
 
 function custom_override_checkout_fields( $fields ) {
 	unset($fields["billing"]["billing_company"]);
-
+	
 	return $fields;
 }
 
