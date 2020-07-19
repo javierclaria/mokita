@@ -287,7 +287,7 @@ a:focus, input:focus, textarea:focus, button:focus {
     border-bottom: 1px solid #efeff0;
 }
 
-/* Single Product */ 
+/* Single Product & List Products */ 
 .single-product .site-content {
     max-width: 1200px;
     margin: auto;
@@ -373,4 +373,9 @@ ul.products li.product .woocommerce-loop-product__title {
 
 ul.products li.product .button {
     margin-bottom:20px;
+}
+
+/* WooCommerce Messages */ 
+.woocommerce-message {
+    background-color: #a3dad5;
 }
