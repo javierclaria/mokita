@@ -379,3 +379,7 @@ ul.products li.product .button {
 .woocommerce-message {
     background-color: #a3dad5;
 }
+
+.woocommerce-error {
+    background-color: #4f4f4e;
+}
