@@ -50,6 +50,7 @@ function mokita_custom_hooks() {
 
 	// Single Product
 	remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40);
+	remove_all_actions('woocommerce_after_single_product_summary', 10);
 
 }
 
