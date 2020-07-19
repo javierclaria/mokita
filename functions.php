@@ -56,6 +56,7 @@ function mokita_custom_hooks() {
 
 	function custom_override_checkout_fields( $fields ) {
 		unset($fields["billing"]["billing_company"]);
+		unset($fields["billing"]["billing_country"]);
 		return $fields;
 	}
 
