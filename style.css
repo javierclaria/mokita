@@ -273,3 +273,9 @@ a:focus, input:focus, textarea:focus, button:focus {
     border-radius: 0px;
     border-bottom: 1px solid #efeff0;
 }
+
+/* Single Product */ 
+.single-product .site-content {
+    max-width: 1200px;
+    margin: auto;
+}
