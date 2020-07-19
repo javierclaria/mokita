@@ -95,7 +95,6 @@ function mokita_footer_copyright() {
 
 function custom_override_checkout_fields( $fields ) {
 	unset($fields["billing"]["billing_company"]);
-	unset($fields["billing"]["billing_country"]);
 	return $fields;
 }
 
