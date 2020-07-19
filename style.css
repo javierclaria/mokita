@@ -26,6 +26,15 @@ a:focus, input:focus, textarea:focus, button:focus {
     max-width: 100%;
 }
 
+.button {
+    background: #a3dad5;
+    text-transform: uppercase;
+    color: white;
+} 
+
+.button:hover {
+    background: #77c5be;
+}
 /* Header Styles */ 
 
 .announcerbar {text-align: center;
