@@ -34,6 +34,7 @@ a:focus, input:focus, textarea:focus, button:focus {
 
 .button:hover {
     background: #77c5be;
+    color: white;
 }
 /* Header Styles */ 
 
