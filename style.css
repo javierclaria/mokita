@@ -412,6 +412,11 @@ a.checkout-button.button.alt.wc-forward {
     background-color: #a3dad5;
 }
 
+button.alt {
+    background-color: #a3dad5;
+    border-color:#a3dad5;
+}
+
 .woocommerce-checkout #primary {
     max-width: 1200px;
     margin: auto;
