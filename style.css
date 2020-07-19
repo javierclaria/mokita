@@ -440,6 +440,13 @@ a.checkout-button.button.alt.wc-forward {
     height: 150px;
 }
 
+@media(max-width:1200px){
+    
+    .full-image-mokita-header {
+        background-position: left center;
+    }
+
+}
 @media(max-width:767px){
 
     .storefront-primary-navigation {
