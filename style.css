@@ -149,7 +149,6 @@ a:focus, input:focus, textarea:focus, button:focus {
     background-position: center;
     margin-bottom: 40px;
     margin-top: -15px;
-    background-attachment: fixed;
 }
 
 /* General Content */ 
