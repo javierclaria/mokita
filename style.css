@@ -412,7 +412,7 @@ a.checkout-button.button.alt.wc-forward {
     background-color: #a3dad5;
 }
 
-button.alt {
+.woocommerce-cart button.alt {
     background-color: #a3dad5;
     border-color:#a3dad5;
 }
