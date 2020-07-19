@@ -344,3 +344,11 @@ ul.products li.product img {
     width: 100%;
     border-radius: 0px;
 }
+
+ul.products li.product .woocommerce-loop-product__title {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #bbbbbb;
+    font-weight: 600;
+    font-size: 20px;
+}
