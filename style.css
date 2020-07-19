@@ -298,3 +298,8 @@ a:focus, input:focus, textarea:focus, button:focus {
     color: #6a6a6a;
     margin-top: 10px;
 }
+
+.single_add_to_cart_button.button {
+    background: #a3dad5;
+    text-transform: uppercase;
+}
