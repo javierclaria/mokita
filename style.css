@@ -279,3 +279,13 @@ a:focus, input:focus, textarea:focus, button:focus {
     max-width: 1200px;
     margin: auto;
 }
+
+.single-product div.product p.price {
+    margin:0px;
+}
+
+.product_title.entry-title {
+    margin-bottom: 0px;
+    color: #a3dad5;
+    font-weight: 500;
+}
