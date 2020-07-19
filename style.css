@@ -413,3 +413,8 @@ ul.products li.product .button {
     margin: auto;
     float: none;
 }
+
+.woocommerce-checkout iframe  {
+    max-width: 100%;
+    width: 100%;
+}
