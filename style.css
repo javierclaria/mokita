@@ -27,13 +27,16 @@ a:focus, input:focus, textarea:focus, button:focus {
 }
 
 .button {
-    background: #a3dad5;
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+    background-color: #a3dad5;
     text-transform: uppercase;
     color: white;
 } 
 
 .button:hover {
-    background: #77c5be;
+    background-color: #77c5be;
     color: white;
 }
 /* Header Styles */ 
