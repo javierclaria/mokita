@@ -402,3 +402,14 @@ ul.products li.product .button {
     margin: 0;
     clear: both;
 }
+
+/* Checkout */ 
+.woocommerce-info, .woocommerce-noreviews, p.no-comments {
+    background-color: #a3dad5;
+}
+
+.woocommerce-checkout #primary {
+    max-width: 1200px;
+    margin: auto;
+    float: none;
+}
