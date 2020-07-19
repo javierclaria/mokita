@@ -289,3 +289,12 @@ a:focus, input:focus, textarea:focus, button:focus {
     color: #a3dad5;
     font-weight: 500;
 }
+
+.single-product div.product table.variations select {
+    max-width: 70%;
+    vertical-align: middle;
+    width: 300px;
+    padding: 10px;
+    color: #6a6a6a;
+    margin-top: 10px;
+}
