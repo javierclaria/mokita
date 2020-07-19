@@ -149,6 +149,11 @@ a:focus, input:focus, textarea:focus, button:focus {
     margin: auto;
 }
 
+.box-content {
+    max-width: 1200px;
+    margin: auto;
+} 
+
 .titles-homepage {
     text-align: center;
 }
