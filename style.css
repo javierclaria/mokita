@@ -387,3 +387,10 @@ ul.products li.product .button {
 .woocommerce-error {
     background-color: #4f4f4e;
 }
+
+/* WooCommerce Cart */ 
+.woocommerce-cart #primary {
+    width: 1200px;
+    margin: auto;
+    float: none;
+}
