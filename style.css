@@ -355,6 +355,6 @@ ul.products li.product .woocommerce-loop-product__title {
     margin-top:20px;
 }
 
-li.product button {
+ul.products li.product .button {
     margin-bottom:20px;
 }
