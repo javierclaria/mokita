@@ -351,4 +351,9 @@ ul.products li.product .woocommerce-loop-product__title {
     color: #bbbbbb;
     font-weight: 600;
     font-size: 20px;
+    margin-top:20px;
+}
+
+li.product button {
+    margin-bottom:20px;
 }
