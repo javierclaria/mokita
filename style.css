@@ -428,6 +428,12 @@ a.checkout-button.button.alt.wc-forward {
     width: 100%;
 }
 
+/* Preguntas Frecuentes  */
+.page-id-32 #primary {
+    margin: auto;
+    max-width: 1200px;
+    float: none;
+} 
 
 @media(max-width:767px){
 
