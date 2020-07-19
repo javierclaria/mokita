@@ -53,13 +53,6 @@ function mokita_custom_hooks() {
 	remove_all_actions('woocommerce_after_single_product_summary', 10);
 	
 	add_filter( "woocommerce_checkout_fields" , "custom_override_checkout_fields" );
-
-	function custom_override_checkout_fields( $fields ) {
-		unset($fields["billing"]["billing_company"]);
-		unset($fields["billing"]["billing_country"]);
-		return $fields;
-	}
-
 }
 
 // Functions 
@@ -84,12 +77,17 @@ function mokita_footer_logo() {
 	endif;
 }
 
-
 function mokita_footer_copyright() { 
 	$text_announcement_footer = get_field( "anuncio_copy", "option");
 	if($text_announcement_footer):
 	echo '<div class="footer_copyright"> '. $text_announcement_footer .' </div>';
 	endif;
+}
+
+function custom_override_checkout_fields( $fields ) {
+	unset($fields["billing"]["billing_company"]);
+	unset($fields["billing"]["billing_country"]);
+	return $fields;
 }
 
 // Register Options Page ACF 
