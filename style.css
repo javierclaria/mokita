@@ -365,6 +365,12 @@ ul.products li.product .woocommerce-loop-product__title {
     padding-top: 20px;
 }
 
+.single-product div.product table.variations select {
+    max-width: 70%;
+    vertical-align: middle;
+    border-color: #f0f0f0;
+}
+
 ul.products li.product .button {
     margin-bottom:20px;
 }
