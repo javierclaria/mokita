@@ -427,3 +427,21 @@ a.checkout-button.button.alt.wc-forward {
     max-width: 100%;
     width: 100%;
 }
+
+
+@media(max-width:767px){
+
+    .storefront-primary-navigation {
+        margin-top: 10px;
+        float: right;
+        clear: none;
+        width: 50%;
+    }
+
+    .woocommerce-active .site-header .site-branding {
+        width: 50%;
+        margin-bottom: 0;
+        margin-right: 0;
+        max-width: 310px;
+    }
+}
