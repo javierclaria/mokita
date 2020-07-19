@@ -19,6 +19,10 @@ a {
     color: #77c5be;
 }
 
+.hentry .entry-content a {
+    text-decoration: none;
+}
+
 a:focus, input:focus, textarea:focus, button:focus {
     outline: none;
 }
