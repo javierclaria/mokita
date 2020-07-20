@@ -506,6 +506,9 @@ a.checkout-button.button.alt.wc-forward {
 }
 @media(max-width:768px){
     
+    .main-navigation ul.menu > li > a, .main-navigation ul.nav-menu > li > a {
+        text-align: center;
+    }
 
     .storefront-primary-navigation {
         margin-top: 10px;
