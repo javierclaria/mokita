@@ -485,7 +485,7 @@ a.checkout-button.button.alt.wc-forward {
 }
 
 #gform_submit_button_1 {
-    background: #a3dad5;
+    background: #a3dad5 !important;
     color: white;
 }
 
