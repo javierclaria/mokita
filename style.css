@@ -565,7 +565,9 @@ a.checkout-button.button.alt.wc-forward {
     }
 }
 @media(max-width:768px){
-
+    .full-image-mokita-header {
+        height: 250px;
+    }
     .title_header {
         font-size: 30px;
         line-height: 25px;
