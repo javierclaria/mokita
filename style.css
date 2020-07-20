@@ -453,6 +453,11 @@ a.checkout-button.button.alt.wc-forward {
 
 /* Contacto */ 
 
+.page-id-35 .entry-content svg {
+    fill: #a3dad5;
+    width: 17px;
+}
+
 #gform_wrapper_1 {
     max-width: 900px;
     margin: auto;
