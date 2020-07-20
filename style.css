@@ -523,6 +523,10 @@ a.checkout-button.button.alt.wc-forward {
     }
 }
 @media(max-width:768px){
+
+    .storefront-handheld-footer-bar .my-account, .storefront-handheld-footer-bar .search {
+        display: none;
+    }
     
     .main-navigation ul.menu > li > a, .main-navigation ul.nav-menu > li > a {
         text-align: center;
