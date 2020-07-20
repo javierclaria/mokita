@@ -508,6 +508,10 @@ a.checkout-button.button.alt.wc-forward {
     display: none;
 }
 
+.page-id-35 .title_header,  .page-id-32 .site-header {
+    display: none;
+}
+
 .title_header {
     position: absolute;
     color: white;
