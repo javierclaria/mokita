@@ -481,6 +481,12 @@ a.checkout-button.button.alt.wc-forward {
 
 #gform_wrapper_1 textarea {
     background:white;
+    text-align: center;
+}
+
+#gform_submit_button_1 {
+    background: #a3dad5;
+    color: white;
 }
 
 @media(max-width:1200px){
