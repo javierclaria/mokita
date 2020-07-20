@@ -494,6 +494,19 @@ a.checkout-button.button.alt.wc-forward {
     color: white;
 }
 
+/* 404 page */ 
+
+.error-404.not-found {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.error-404.not-found .fourohfour-columns-2 {
+    display: none;
+}
+
 @media(max-width:1200px){
 
     .full-image-mokita-header {
