@@ -69,7 +69,7 @@ function mokita_page_image_header(){
 	$img_url = get_field( "imagen_header_full_width", $post_id);
 	if($img_url): ?>
 	<div class="full-image-mokita-header" style="background-image: url('<?php echo $img_url ?> ');">
-		<div class="title_header"> Bienvenidos a Mokita <br>Otoño // Invierno 2020  </div>
+		<div class="title_header"> Bienvenid@s a Mokita <br>Otoño // Invierno 2020  </div>
 	</div>
 	<? endif; 
 }
