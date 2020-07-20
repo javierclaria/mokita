@@ -451,6 +451,25 @@ a.checkout-button.button.alt.wc-forward {
     height: 150px;
 }
 
+/* Contacto */ 
+
+#gform_wrapper_1 {
+    max-width: 900px;
+    margin: auto;
+    padding: 15px;
+    background: #f0f0f0
+}
+
+.gform_wrapper .gform_heading {
+    display: none;
+}
+
+#gform_wrapper_1 input {
+    background: white;
+    width: 100%;
+    text-align: center;
+}
+
 
 @media(max-width:1200px){
 
