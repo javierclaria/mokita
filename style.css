@@ -512,25 +512,15 @@ a.checkout-button.button.alt.wc-forward {
     position: absolute;
     color: white;
     right: 10%;
-    width: 40%;
+    width: 90%;
     top: 150px;
     font-size: 60px;
     font-family: 'Open Sans', sans-serif;
     line-height: 55px;
     font-weight: 300;
     color: #4f4f4e;
+    text-align: right;
 }
-
-
-@media(max-width:1400px){
-
-    .title_header {
-
-    }
-    
-
-}
-
 
 @media(max-width:1200px){
 
