@@ -409,6 +409,7 @@ a.checkout-button.button.alt.wc-forward {
     width: 1200px;
     margin: auto;
     float: none;
+    max-width: 100%;
 }
 
 .woocommerce-cart .cart-collaterals .cart_totals {
