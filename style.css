@@ -637,5 +637,9 @@ a.checkout-button.button.alt.wc-forward {
         margin-top: 10px;
         margin-bottom: 10px;
     }
- 
+    .storefront-full-width-content .site-main ul.products.columns-3 li.product {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
