@@ -573,6 +573,11 @@ a.checkout-button.button.alt.wc-forward {
 
 @media(max-width:768px){
 
+    .storefront-primary-navigation {
+        margin-top: -40px;
+        width: 100%;;
+    }
+    
     .storefront-full-width-content .site-main ul.products.columns-4 li.product {
         -webkit-box-shadow: -1px -1px 30px -12px rgba(158,158,158,1);
         -moz-box-shadow: -1px -1px 30px -12px rgba(158,158,158,1);
@@ -630,11 +635,6 @@ a.checkout-button.button.alt.wc-forward {
 }
 
 @media(max-width:550px){
-
-    .storefront-primary-navigation {
-        margin-top: -40px;
-        width: 100%;;
-    }
 
     .storefront-full-width-content .site-main ul.products.columns-4 li.product {
         width: 100%;
