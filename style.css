@@ -195,7 +195,17 @@ img {
 }
 
 .grid-categorias .wp-block-column  {
-    margin-right: 0px !important;
+    margin-right:1% !important;
+}
+
+.grid-categorias figure {
+    margin-bottom: 0px;
+}
+
+.grid-categorias h3 {
+    background-color: #a3dad5;
+    color: white;
+    padding: 10px 0px;
 }
 
 /* Footer */
