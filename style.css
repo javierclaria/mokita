@@ -195,7 +195,7 @@ img {
 }
 
 .grid-categorias .wp-block-columns  {
-    margin-right: 0px;
+    margin-right: 0px !important;
 }
 
 /* Footer */
