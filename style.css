@@ -190,6 +190,10 @@ a:focus, input:focus, textarea:focus, button:focus {
     font-weight: 400;
 }
 
+.grid-categorias .wp-block-columns  {
+    margin-right: 0px;
+}
+
 /* Footer */
 .site-footer {
     background: rgb(222,222,222);
