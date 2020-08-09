@@ -31,6 +31,10 @@ a:focus, input:focus, textarea:focus, button:focus {
     max-width: 100%;
 }
 
+img {
+    border-radius: 0px;
+}
+
 .button {
     -webkit-transition: background-color 500ms linear;
     -ms-transition: background-color 500ms linear;
