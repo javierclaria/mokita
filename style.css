@@ -198,7 +198,7 @@ img {
     margin-right:1% !important;
 }
 
-.grid-categorias figure.wp-block-image {
+.hentry .entry-conten .grid-categorias figure.wp-block-image {
     margin-bottom: 0px;
 }
 
