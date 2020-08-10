@@ -675,3 +675,13 @@ a.checkout-button.button.alt.wc-forward {
         margin-bottom: 10px;
     }
 }
+
+@media (max-width: 600px) and (min-width: 481px) {
+.wc-block-grid.has-4-columns .wc-block-grid__product {
+        flex: 1 0 100%;
+        max-width: 50%;
+        padding: 0;
+        margin: 0 0 24px;
+        max-width: 100%;
+    }
+}
