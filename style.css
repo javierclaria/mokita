@@ -180,6 +180,10 @@ img {
     margin: auto;
 }
 
+.wp-block-image.image-abrigos-homepage img {
+    width:1190px;
+}
+
 .box-content {
     max-width: 1200px;
     margin: auto;
