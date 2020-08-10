@@ -285,7 +285,7 @@ img {
 
 /* WooCommerce */
 
-.woocommerce-products-header {
+.storefront-full-width-content .woocommerce-products-header {
     text-align: left;
     padding-bottom: 10px;
 }
