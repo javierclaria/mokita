@@ -215,6 +215,9 @@ img {
     color: white;
     padding: 10px 0px;
 }
+.grid-categorias h3 a {
+    color: white;
+}
 
 /* Footer */
 .site-footer {
