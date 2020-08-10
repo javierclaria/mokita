@@ -551,6 +551,12 @@ a.checkout-button.button.alt.wc-forward {
     text-align: right;
 }
 
+@media screen and (min-width: 768px) {
+    .main-navigation ul.menu ul.sub-menu, .main-navigation ul.nav-menu ul.children {
+        background-color: transparent;
+    }
+}
+
 @media(max-width:1200px){
 
     .full-image-mokita-header {
@@ -558,9 +564,6 @@ a.checkout-button.button.alt.wc-forward {
     }
 
 }
-
-
-
 @media(max-width:1250px){
 
     .title_header {
@@ -637,6 +640,11 @@ a.checkout-button.button.alt.wc-forward {
         text-align: center;
     }
 
+    .main-navigation ul.menu .sub-menu li {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        float: left;
+    }
     .woocommerce-active .site-header .site-branding {
         width: 50%;
         margin-bottom: 0;
