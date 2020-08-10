@@ -295,6 +295,7 @@ img {
     padding-top: 10px;
     padding-bottom: 10px;
     color: white !important;
+    display: none;
 }
 
 .storefront-full-width-content .woocommerce-products-header {
@@ -611,6 +612,10 @@ a.checkout-button.button.alt.wc-forward {
 
 
 @media(max-width:768px){
+
+    .wc-block-grid__product-onsale, .onsale {
+        display: block;
+    }
 
     .storefront-primary-navigation {
         margin-top: -40px;
