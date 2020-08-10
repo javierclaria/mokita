@@ -217,6 +217,7 @@ img {
 }
 .grid-categorias h3 a {
     color: white;
+    display: block;
 }
 
 /* Footer */
