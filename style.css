@@ -615,6 +615,11 @@ a.checkout-button.button.alt.wc-forward {
 
     .wc-block-grid__product-onsale, .onsale {
         display: block;
+        display: block;
+        max-width: 90%;
+        /* text-align: center; */
+        margin: auto;
+        margin-bottom: 10px;
     }
 
     .storefront-primary-navigation {
