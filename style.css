@@ -101,6 +101,10 @@ img {
     background: #77c5be;
 }
 
+.main-navigation ul li:hover li {
+    background:#77c5be;
+}
+
 .site-header ul.menu li.current-menu-item {
     background: #77c5be;
 }
