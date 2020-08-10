@@ -640,9 +640,9 @@ a.checkout-button.button.alt.wc-forward {
         text-align: center;
     }
 
-    .main-navigation ul.menu .sub-menu li {
+    .sub-menu li {
         margin-bottom: 0px;
-        margin-top: 0px;
+        margin-top: 0px !important;
         float: left;
     }
     .woocommerce-active .site-header .site-branding {
