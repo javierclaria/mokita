@@ -640,11 +640,6 @@ a.checkout-button.button.alt.wc-forward {
         text-align: center;
     }
 
-    .sub-menu li {
-        margin-bottom: 0px;
-        margin-top: 0px !important;
-        float: left;
-    }
     .woocommerce-active .site-header .site-branding {
         width: 50%;
         margin-bottom: 0;
