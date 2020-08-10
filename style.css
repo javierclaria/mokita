@@ -289,6 +289,14 @@ img {
 
 /* WooCommerce */
 
+.wc-block-grid__product-onsale, .onsale {
+    border-color: #a3dad5;
+    background: #a3dad5b0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white !important;
+}
+
 .storefront-full-width-content .woocommerce-products-header {
     text-align: left;
     padding-bottom: 10px;
