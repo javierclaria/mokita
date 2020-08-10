@@ -284,6 +284,12 @@ img {
 }
 
 /* WooCommerce */
+
+.woocommerce-products-header {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
 .hentry .entry-content .wp-block-button .wp-block-button__link {
     color: white;
     text-transform: uppercase;
