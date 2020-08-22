@@ -14,37 +14,37 @@
 
     <div class="cat-uno">
         <a href="http://">
-            01. REMERAS Y BLUSAS
+            01. Remeras & Blusas
         </a>
     </div>
 
     <div class="cat-dos">
         <a href="http://">
-            02. PANTS
+            02. Pants
         </a>
     </div>
 
     <div class="cat-tres">
         <a href="http://">
-            03. SWEATERS
+            03. Sweaters
         </a>
     </div>
 
     <div class="cat-cuatro">
         <a href="http://">
-            04. VESTIDOS
+            04. Vestidos
         </a>
     </div>
 
     <div class="cat-cinco">
         <a href="http://">
-            05. ABRIGOS
+            05. Abrigos
         </a>
     </div>
 
     <div class="cat-seis">
         <a href="http://">
-            06. REBAJAS
+            06. Rebajas
         </a>
     </div>
 

@@ -305,7 +305,7 @@ img {
 
 #categorias-mokitas-woocommerce div {
     width: 32%;
-    height: 300px;
+    height: 230px;
     margin-left: 0.65%;
     margin-right: 0.65%;
     margin-bottom: 25px;
@@ -313,9 +313,23 @@ img {
     color: white;
 }
 
+
+#categorias-mokitas-woocommerce div a {
+    display: block;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    color: white;
+    font-weight: 300;
+}
+
 .cat-uno {
     background-color: #e8c3d4;
-
 }
 .cat-dos {
     background-color: #abd6d8;
