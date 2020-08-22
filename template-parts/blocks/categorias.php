@@ -42,7 +42,7 @@
         </a>
     </div>
 
-    <div class="cat-cinco">
+    <div class="cat-seis">
         <a href="http://">
             06. REBAJAS
         </a>

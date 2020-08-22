@@ -295,6 +295,46 @@ img {
     background: #7a8491;
 }
 
+
+/* Block Cat Mokita */ 
+
+#categorias-mokitas-woocommerce {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#categorias-mokitas-woocommerce div {
+    width: 32%;
+    height: 300px;
+    margin-left: 0.65%;
+    margin-right: 0.65%;
+    margin-bottom: 25px;
+    font-size: 22px;
+    color: white;
+}
+
+.cat-uno {
+    background-color: #e8c3d4;
+
+}
+.cat-dos {
+    background-color: #abd6d8;
+}
+.cat-tres {
+    background-color:#ecde7a;
+}
+.cat-cuatro {
+    background-color:#b9acbd;
+}
+.cat-cinco {
+    background-color:#b9acbd;
+}
+.cat-seis {
+    background-color:#b9acbd;
+}
+
+/* end block Cat Mokita */ 
+
 /* WooCommerce */
 
 .wc-block-grid__product-onsale, .onsale {
