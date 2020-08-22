@@ -133,7 +133,7 @@ function my_acf_init() {
 	// check function exists
 	if( function_exists('acf_register_block') ) {
 		
-		// register a testimonial block
+		// Register Slider	
 		acf_register_block(array(
 			'name'				=> 'sliderhomepage',
 			'title'				=> __('Slider del Homepage'),
@@ -145,5 +145,21 @@ function my_acf_init() {
 			'keywords'			=> array('slider','homepage'),
 		));
 	}
+
+		// Register Categorias
+		if( function_exists('acf_register_block') ) {
+		
+			// register a testimonial block
+			acf_register_block(array(
+				'name'				=> 'catwoocommerce',
+				'title'				=> __('Cat - Mokita WooCommerce'),
+				'description'		=> __('Feed Categorias WooCommerce'),
+				'render_template'   => 'template-parts/blocks/categorias.php',
+				'render_callback'	=> 'my_acf_block_render_callback',
+				'category'			=> 'formatting',
+				'icon'				=> 'admin-comments',
+				'keywords'			=> array('categorias','mokita', ''),
+			));
+		}
 }
 ?>
