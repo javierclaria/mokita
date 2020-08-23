@@ -348,7 +348,7 @@ img {
     background-color:#d15557;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
     #categorias-mokitas-woocommerce div {
         width: 49%;
         height: 230px;
@@ -361,7 +361,7 @@ img {
     }
 }
 
-@media screen and (min-width: 620px) {
+@media screen and (max-width: 620px) {
     #categorias-mokitas-woocommerce div {
         width: 100%;
         height: 230px;
