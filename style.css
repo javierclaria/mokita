@@ -349,8 +349,12 @@ img {
     background-size: cover;
 }
 .cat-cuatro {
-    background-color:#6d8fc0;
+    background-color:#bdd7ea;
+    background-image: url('https://mokita.com.ar/wp-content/uploads/2020/08/bg-vestidos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .cat-cinco {
     background-color:#b9acbd;
 }
