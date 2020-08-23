@@ -814,9 +814,9 @@ a.checkout-button.button.alt.wc-forward {
 }
 
 @media(max-width:650px) {
-    
+
     .full-image-mokita-header {
-        background-image: url('https://mokita.com.ar/wp-content/uploads/2020/08/bg-mobile-mokita.jpg');
+        background-image: url('https://mokita.com.ar/wp-content/uploads/2020/08/bg-mobile-mokita.jpg') !important;
         height: 550px;
         background-size: contain;
     }
