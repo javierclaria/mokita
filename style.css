@@ -331,7 +331,11 @@ img {
 
 .cat-uno {
     background-color: #e8c3d4;
+    background-image: url('https://mokita.com.ar/wp-content/uploads/2020/08/bg-remeras-1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
+
 .cat-dos {
     background-color: #abd6d8;
 }
