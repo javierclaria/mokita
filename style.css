@@ -397,13 +397,21 @@ img {
         color: white;
         position: relative;
     }
-    
+
     .contait-wider.titles-homepage.icons-homepage {
         display: none;;
     }
 
     .contait-wider.titles-homepage.icons-homepage-mobile {
         display: block;
+    }
+
+    .contait-wider.titles-homepage.icons-homepage-mobile h3 {
+        font-size: 15px;
+    }
+
+    .contait-wider.titles-homepage.icons-homepage-mobile p {
+        font-size: 12px;
     }
 }
 
