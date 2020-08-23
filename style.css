@@ -220,6 +220,10 @@ img {
     display: block;
 }
 
+.contait-wider.titles-homepage.icons-homepage-mobile {
+    display: none;
+}
+
 /* Footer */
 .site-footer {
     background: rgb(222,222,222);
@@ -392,6 +396,14 @@ img {
         font-size: 22px;
         color: white;
         position: relative;
+    }
+    
+    .contait-wider.titles-homepage.icons-homepage {
+        display: none;;
+    }
+
+    .contait-wider.titles-homepage.icons-homepage-mobile {
+        display: block;
     }
 }
 
