@@ -414,7 +414,7 @@ img {
         font-size: 12px;
     }
 
-    .contait-wider.titles-homepage.icons-homepage-mobile  .wp-block-image img {
+    .contait-wider.titles-homepage.icons-homepage-mobile img {
         max-width: 70%;
     }
 }
