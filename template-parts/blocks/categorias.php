@@ -13,13 +13,13 @@
 <section id="categorias-mokitas-woocommerce">
 
     <div class="cat-uno">
-        <a href="https://mokita.com.ar/tienda/abrigos/">
+        <a href="https://mokita.com.ar/tienda/remeras-y-blusas">
             01. Remeras & Blusas
         </a>
     </div>
 
     <div class="cat-dos">
-        <a href="https://mokita.com.ar/tienda/remeras-y-blusas/">
+        <a href="https://mokita.com.ar/tienda/pants-leggings/">
             02. Pants & Leggings
         </a>
     </div>
