@@ -413,6 +413,10 @@ img {
     .contait-wider.titles-homepage.icons-homepage-mobile p {
         font-size: 12px;
     }
+
+    .contait-wider.titles-homepage.icons-homepage-mobile  .wp-block-image img {
+        max-width: 70%;
+    }
 }
 
 /* end block Cat Mokita */ 
