@@ -333,11 +333,14 @@ img {
     background-color: #e8c3d4;
     background-image: url('https://mokita.com.ar/wp-content/uploads/2020/08/bg-remeras-1.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .cat-dos {
     background-color: #abd6d8;
+    background-image: url('https://mokita.com.ar/wp-content/uploads/2020/08/bg-pants.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .cat-tres {
     background-color:#ecde7a;
