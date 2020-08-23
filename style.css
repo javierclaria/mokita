@@ -362,7 +362,11 @@ img {
     background-size: cover;
 }
 .cat-seis {
-    background-color:#d15557;
+    background-color:#FF6961;
+    background-image: url('https://mokita.com.ar/wp-content/uploads/2020/08/bg-sale.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 @media screen and (max-width: 1024px) {
