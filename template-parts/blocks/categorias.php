@@ -13,37 +13,37 @@
 <section id="categorias-mokitas-woocommerce">
 
     <div class="cat-uno">
-        <a href="http://">
+        <a href="https://mokita.com.ar/tienda/abrigos/">
             01. Remeras & Blusas
         </a>
     </div>
 
     <div class="cat-dos">
-        <a href="http://">
-            02. Pants
+        <a href="https://mokita.com.ar/tienda/remeras-y-blusas/">
+            02. Pants & Leggings
         </a>
     </div>
 
     <div class="cat-tres">
-        <a href="http://">
+        <a href="https://mokita.com.ar/tienda/sweaters/">
             03. Sweaters
         </a>
     </div>
 
     <div class="cat-cuatro">
-        <a href="http://">
+        <a href="https://mokita.com.ar/tienda/vestidos">
             04. Vestidos
         </a>
     </div>
 
     <div class="cat-cinco">
-        <a href="http://">
+        <a href="https://mokita.com.ar/tienda/abrigos/">
             05. Abrigos
         </a>
     </div>
 
     <div class="cat-seis">
-        <a href="http://">
+        <a href="https://mokita.com.ar/tienda/rebajas">
             06. Rebajas
         </a>
     </div>
