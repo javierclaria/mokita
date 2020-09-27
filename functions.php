@@ -162,4 +162,23 @@ function my_acf_init() {
 			));
 		}
 }
+
+if(is_page('tienda')):
+	add_action( 'woocommerce_product_query', 'bbloomer_hide_products_category_shop' );
+   
+	function bbloomer_hide_products_category_shop( $q ) {
+	  
+		$tax_query = (array) $q->get( 'tax_query' );
+	  
+		$tax_query[] = array(
+			   'taxonomy' => 'product_cat',
+			   'field' => 'slug',
+			   'terms' => array( 'rebajas' ), // Category slug here
+			   'operator' => 'NOT IN'
+		);
+		$q->set( 'tax_query', $tax_query );
+	  
+	}
+endif;
+
 ?>
