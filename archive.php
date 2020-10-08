@@ -11,7 +11,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-w
+
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
@@ -19,7 +19,6 @@ w
 					the_archive_title( '<h1 class="page-title">', '</h1>' );
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				?>
-				<h1>TEsting<h1>
 			</header><!-- .page-header -->
 
 			<?php
