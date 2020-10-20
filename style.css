@@ -152,9 +152,10 @@ img {
     margin-right: 10px;
 }
 
-/* Hero Image */
+/*  `Image */
 
 .full-image-mokita-header {
+    background-attachment: fixed;
     position: relative;
     width: 100%;
     height: 450px;
