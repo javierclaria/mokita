@@ -38,7 +38,7 @@
 
     <div class="cat-cinco">
         <a href="https://mokita.com.ar/tienda/abrigos/">
-            05. Abrigos
+            05. Denim
         </a>
     </div>
 
