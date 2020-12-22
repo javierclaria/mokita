@@ -69,7 +69,7 @@ function mokita_page_image_header(){
 	$img_url = get_field( "imagen_header_full_width", $post_id);
 	if($img_url): ?>
 	<div class="full-image-mokita-header" style="background-image: url('<?php echo $img_url ?> ');">
-		<div class="title_header"> BIENVENIDOS A MOKITA! <br></div>
+		<div class="title_header"> BIENVENIDOS <br> A MOKITA! <br></div>
 	</div>
 	<? endif; 
 }
