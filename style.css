@@ -804,15 +804,16 @@ a.checkout-button.button.alt.wc-forward {
     }
 
     .title_header {
+        left: 0px;
         position: relative;
         color: white;
-        width: 80%;
+        width: 100%;
         font-family: 'Open Sans', sans-serif;
         font-weight: 300;
         text-align: center;
-        background: #0000004a;
+        background: none;
         margin: auto;
-        top: 150px;
+        top: 20px;
     }
 
 }
