@@ -1,0 +1,2 @@
+.hero-header{min-height:20vmax;overflow:hidden;position:relative;display:grid;place-items:center}.hero-header__image{position:absolute;top:0;bottom:0;left:0;right:0}.hero-header__image img{width:100%;height:100%;-o-object-fit:cover;object-fit:cover;-o-object-position:bottom;object-position:bottom}.hero-header__title{position:relative;font-size:2rem!important;color:#fff!important;z-index:1}
+/*# sourceMappingURL=hero-header.min.css.map */
