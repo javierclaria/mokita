@@ -31,8 +31,8 @@
     </div>
 
     <div class="cat-cuatro">
-        <a href="https://mokita.com.ar/tienda/vestidos">
-            04. Vestidos
+        <a href="https://mokita.com.ar/categoria-producto/chalecos/">
+            04. Chalecos
         </a>
     </div>
 
