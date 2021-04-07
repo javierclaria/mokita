@@ -37,8 +37,8 @@
     </div>
 
     <div class="cat-cinco">
-        <a href="https://mokita.com.ar/tienda/shorts-polleras/">
-            05. Denim
+        <a href="https://mokita.com.ar/tienda/camisas/">
+            05. Camisas
         </a>
     </div>
 
