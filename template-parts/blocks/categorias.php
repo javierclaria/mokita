@@ -32,13 +32,13 @@
 
     <div class="cat-cuatro">
         <a href="https://mokita.com.ar/tienda/remeras-y-blusas">
-            01. Remeras & Blusas
+            04. Remeras & Blusas
         </a>
     </div>
 
     <div class="cat-cinco">
         <a href="https://mokita.com.ar/tienda/pants-leggings/">
-                02. Pants & Leggings
+                05. Pants & Leggings
         </a>
     </div>
 
