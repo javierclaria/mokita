@@ -13,14 +13,14 @@
 <section id="categorias-mokitas-woocommerce">
 
     <div class="cat-uno">
-        <a href="https://mokita.com.ar/tienda/remeras-y-blusas">
-            01. Remeras & Blusas
+    <a href="https://mokita.com.ar/categoria-producto/chalecos/">
+            01. Chalecos
         </a>
     </div>
 
     <div class="cat-dos">
-        <a href="https://mokita.com.ar/tienda/pants-leggings/">
-            02. Pants & Leggings
+        <a href="https://mokita.com.ar/tienda/camisas/">
+            02. Camisas
         </a>
     </div>
 
@@ -31,14 +31,14 @@
     </div>
 
     <div class="cat-cuatro">
-        <a href="https://mokita.com.ar/categoria-producto/chalecos/">
-            04. Chalecos
+        <a href="https://mokita.com.ar/tienda/remeras-y-blusas">
+            01. Remeras & Blusas
         </a>
     </div>
 
     <div class="cat-cinco">
-        <a href="https://mokita.com.ar/tienda/camisas/">
-            05. Camisas
+        <a href="https://mokita.com.ar/tienda/pants-leggings/">
+                02. Pants & Leggings
         </a>
     </div>
 
