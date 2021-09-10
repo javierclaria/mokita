@@ -1,5 +1,0 @@
----
-deployment:
- tasks:
-    - export DEPLOYPATH=/home/javiercl/public_html/mokita_site/wp-content/themes/mokitatheme
-    - /bin/cp -R * $DEPLOYPATH
