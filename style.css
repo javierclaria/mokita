@@ -798,7 +798,7 @@ a.checkout-button.button.alt.wc-forward {
     }
 
     .full-image-mokita-header {
-        background-image: url('https://mokita.com.ar/wp-content/uploads/2021/04/mobile-background.jpg') !important;
+        background-image: url('https://mokita.com.ar/wp-content/uploads/2021/08/mobile-background.jpg') !important;
         height: 550px;
         background-size: contain;
     }
@@ -806,7 +806,7 @@ a.checkout-button.button.alt.wc-forward {
     .title_header {
         left: 0px;
         position: relative;
-        color: white;
+        color: black;
         width: 100%;
         font-family: 'Open Sans', sans-serif;
         font-weight: 300;
@@ -839,5 +839,13 @@ a.checkout-button.button.alt.wc-forward {
         padding: 0;
         margin: 0 0 24px;
         max-width: 100%;
+    }
+}
+
+@media(max-width:420px){
+    .full-image-mokita-header {
+        background-image: url(https://mokita.com.ar/wp-content/uploads/2021/08/mobile-background.jpg) !important;
+        height: 353px;
+        background-size: contain;
     }
 }
