@@ -49,6 +49,13 @@ src="https://www.facebook.com/tr?id=729275471257737&ev=PageView&noscript=1"
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <?php wp_head(); ?>
+
+<link
+    rel="stylesheet"
+    href="https://mokita.com.ar/wp-content/themes/mokitatheme/assets/css/main.css"
+  />
+  <script src="https://mokita.com.ar/wp-content/themes/mokitatheme/assets/js/scrollfade-0.1.js"></script>
+  
 </head>
 
 <body <?php body_class(); ?>>
