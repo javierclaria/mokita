@@ -803,6 +803,19 @@ a.checkout-button.button.alt.wc-forward {
         background-size: contain;
     }
 
+    .page-template-home .full-image-mokita-header {
+            background-image: url(https://mokita.com.ar/wp-content/uploads/2022/03/home-page-mobile.jpg) !important;
+            max-height: 490px;
+            background-size: contain;
+            background-size: cover;
+    }
+
+    .page-template-home .title_header {
+        font-size: 35px !important;
+        line-height: 55px !important;
+    }
+    
+
     .title_header {
         left: 0px;
         position: relative;
@@ -1038,5 +1051,46 @@ a.checkout-button.button.alt.wc-forward {
     }
 }
 
+
+@media (max-width: 768px) {
+    .imagen_homepage_left, .text_homepage_right  {
+        width: 96%;
+        margin-right: 2%;
+        margin-left: 2%;
+        margin-bottom: 20px;
+    }
+
+    #sweaters-homepage .imagen_homepage_left .container__txt__homepage p,  #sweaters-homepage .imagen_homepage_left .container__txt__homepage h2, #ruanas-homepage .imagen_homepage_left .container__txt__homepage p, #ruanas-homepage .imagen_homepage_left .container__txt__homepage h2 {
+        text-align: left;
+    }
+
+    #sweaters-homepage .imagen_homepage_left .btn_grid a, #ruanas-homepage .btn_grid a {
+        float: left;
+    }
+
+    .imagen_homepage_left .container__txt__homepage h2 {
+        width: 100%;
+        text-align: left;
+    }
+
+    #camisacos-homepage, #newin-homepage {
+        flex-direction: column-reverse;
+    }
+
+    .site-main.homepage section {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+.page-template-home .title_header {
+    font-size: 30px !important;
+    line-height: 36px !important;
+}
+
+}
 
 
